@@ -64,7 +64,7 @@ pipeline {
   }
     post {
     success {
-        sh 'echo "Pipeline Works"'
+        sh 'echo "Pipelines Works"'
     }
     failure {
         script {
